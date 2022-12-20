@@ -1,0 +1,20 @@
+1.CREATE DATABASE dummy;
+
+2.create table person(id SERIAL, name VARCHAR(50) NOT NULL, email VARCHAR(50) NOT NULL, phone VARCHAR(50), PRIMARY KEY(id));
+
+
+3.
+INSERT into person(name,email,phone) values ('ruby','ruby420@gmail.com','420420');
+INSERT into person(name,email,phone) values ('annaya','anyya@gmail.com','654722');
+INSERT into person(name,email,phone) values ('raja','taja@gmail.com','3468823');
+
+3.
+ALTER TABLE person ADD addressid int;
+
+4.
+UPDATE person SET addressid =1;
+
+5.jdbc:postgresql://127.0.0.1:5432/ruby;
+
+username:ruby
+password:ruby
